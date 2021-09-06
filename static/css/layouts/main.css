@@ -35,11 +35,13 @@ p {
 }
 
 a {
-  color: #248aaa;
+  color: #0B409C;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #207089;
+  color: #1A2849;
+  text-decoration: none;
 }
 
 .nav-button {
@@ -50,37 +52,39 @@ a:hover {
 }
 
 .btn-dark {
-  background-color: #3c4858;
-  border-color: #3c4858;
+  background-color: #233567;
+  border-color: #233567;
   color: #e5e9f2;
   transition: all 0.3s ease-out;
 }
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: #248aaa;
-  border-color: #248aaa;
+  background-color: #1A2849;
+  border-color: #1A2849;
   transition: all 0.3s ease-out;
 }
 
 .btn-outline-info {
-  color: #2098d1 !important;
-  border-color: #2098d1 !important;
+  color: #233567 !important;
+  border-color: #233567 !important;
 }
 
 .btn-outline-info:hover {
-  background-color: #2098d1 !important;
+  background-color: #233567 !important;
   color: #e5e9f2 !important;
 }
 
 .btn-info {
-  background-color: #248aaa !important;
+  background-color: #0e152b !important;
   color: #e5e9f2 !important;
+  border-color: #0e152b;
 }
 
 .btn-info:hover {
-  background-color: #2098d1 !important;
+  background-color: #131c3a !important;
   color: #e5e9f2 !important;
+  border-color: #131c3a;
 }
 
 .btn-link {
@@ -296,7 +300,7 @@ mark {
 
 .footer {
   color: #8392a5 !important;
-  background-color: #1c2d41;
+  background-color: #1A2849;
   position: relative;
   z-index: 9999;
 }
@@ -306,10 +310,12 @@ mark {
 }
 .footer a {
   color: #8392a5;
+  text-decoration: none;
   transition: all 0.3s ease-out;
 }
 
 .footer a:hover {
+  color: #e7eaf0;
   margin-left: 5px;
   transition: all 0.3s ease-out;
 }

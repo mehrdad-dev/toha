@@ -7,12 +7,6 @@ other = "Beiträge"
 [toc_heading]
 other = "Inhaltsverzeichnis"
 
-[tags]
-other = "Tags"
-
-[categories]
-other = "Categorieën"
-
 [at]
 other = "bei"
 
@@ -38,7 +32,7 @@ other = "Mit dem Newsletter auf dem neuesten Stand bleiben"
 other = "E-Mail-Adresse eingeben"
 
 [newsletter_warning]
-other = "Door uw e-mailadres in te voeren, gaat u akkoord met het ontvangen van de nieuwsbrief van deze website."
+other = "Wir werden Ihre E-Mail-Adresse nicht an Dritte weitergeben."
 
 [submit]
 other = "Absenden"

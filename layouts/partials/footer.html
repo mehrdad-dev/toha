@@ -121,13 +121,13 @@
                 <button type="submit" class="btn btn-info">{{ i18n "submit" }}</button>
               </form>
             {{ else }}
-              <form method='post' action='https://blogtrottr.com'>
-              <div class="form-group">
-              <input type='email' class="form-control" name='btr_email' placeholder="{{ i18n "newsletter_input_placeholder" }}"/><br />
-              <input type='hidden' name='btr_url' value='{{ "" | absLangURL }}index.xml' />
-              <input type='hidden' name='schedule_type' value='1' />
-              <small id="emailHelp" class="form-text text-muted">{{ i18n "newsletter_warning" }}</small>
-              <button type="submit" class="btn btn-info"> {{ i18n "submit" }} </button>
+             <!-- a dummy form -->
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="{{ i18n "newsletter_input_placeholder" }}"/>
+                  <small id="emailHelp" class="form-text text-muted">{{ i18n "newsletter_warning" }}</small>
+                </div>
+                <button type="submit" class="btn btn-info">{{ i18n "submit" }}</button>
               </form>
             {{ end }}
           </div>
@@ -137,21 +137,21 @@
     {{ if and $disclaimerEnabled $disclaimer}}
     <hr />
     <div class="container">
-      <p id="disclaimer"><strong>{{ i18n "disclaimer_text" }}:</strong> {{ $disclaimer | markdownify }}</p>
+      <p id="disclaimer"><strong>{{ i18n "disclaimer_text" }}:</strong> {{ $disclaimer }}</p>
     </div>
     {{ end }}
     {{ if $credentialsEnabled }}
     <hr />
     <div class="container">
       <div class="row text-left">
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
             <img src="{{ $themeLogo }}" alt="Toha Theme Logo">
             Toha
           </a>
-        </div>
+        </div> -->
         <div class="col-md-4 text-center">{{ $copyrightNotice | markdownify }}</div>
-        <div class="col-md-4 text-right">
+        <!-- <div class="col-md-4 text-right">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">{{ i18n "hugoAttributionText" }}
           <img
             src="{{ $hugoLogo }}"
@@ -159,7 +159,7 @@
             height="18"
           />
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
     {{ end }}

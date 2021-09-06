@@ -8,12 +8,6 @@ other = "Artikel"
 [toc_heading]
 other = "Daftar Isi"
 
-[tags]
-other = "Tags"
-
-[categories]
-other = "Kategori"
-
 [at]
 other = "at"
 
@@ -39,7 +33,7 @@ other = "Ingin selalu update dengan notifikasi email"
 other = "Masukkan email"
 
 [newsletter_warning]
-other = "Dengan memasukkan alamat email Anda, Anda setuju untuk menerima buletin situs web ini."
+other = "Kami tidak pernah berbagi data email dengan siapapun."
 
 [submit]
 other = "Kirim"

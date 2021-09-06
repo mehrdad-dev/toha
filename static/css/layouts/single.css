@@ -81,7 +81,7 @@ body {
 .toc .nav-link.active {
   padding-left: 1rem;
   padding-right: 0.5rem;
-  background-color: #248aaa;
+  background-color: #233567;
   color: #f9f9f9;
   transition: all ease-out 0.3s;
 }
@@ -187,7 +187,7 @@ h6 {
 .next-prev-navigator .btn-outline-info {
   color: #f9fafc !important;
   border-color: #e5e9f2 !important;
-  background-color: #248aaa !important;
+  background-color: #1A2849 !important;
   transition: all 0.3s ease-out;
 }
 
@@ -217,7 +217,7 @@ h6 {
   position: fixed;
   bottom: 0rem;
   right: 1rem;
-  color: #248aaa;
+  color: #233567;
   font-size: 24pt;
   z-index: 900000;
   visibility: hidden;
@@ -230,24 +230,11 @@ h6 {
 }
 
 #scroll-to-top:hover {
-  color: #2098d1;
+  color: #1A2849;
 }
 
 #scroll-to-top.show {
   visibility: visible;
-}
-.taxonomy-terms {
-  text-align: center;
-}
-.taxonomy-terms li {
-  font-size: .8em;
-  list-style-type: none;
-  display: inline-block;
-	background: #248aaa;
-}
-
-.taxonomy-terms a{
-  color: #f9fafc;
 }
 
 /* ============= Device specific fixes ======= */

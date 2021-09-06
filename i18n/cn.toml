@@ -1,78 +1,81 @@
 # More documentation here: https://github.com/nicksnyder/go-i18n
 [home]
-other = "ホーム"
+other = "主页"
 
 [posts]
-other = "記事"
+other = "博文"
 
 [toc_heading]
-other = "目次"
+other = "目录"
+
+[at]
+other = "at"
 
 [resume]
-other = "職務経歴書"
+other = "我的简历"
 
 [navigation]
-other = "メニュー"
+other = "导航"
 
 [contact_me]
-other = "連絡先"
+other = "联系方式:"
 
 [email]
-other = "メール"
+other = "邮箱"
 
 [phone]
-other = "電話番号"
+other = "电话"
 
 [newsletter_text]
-other = "メールで最新情報を受け取る"
+other = "通过电子邮件接收最新信息"
 
 [newsletter_input_placeholder]
-other = "ここにメールアドレスを入力"
+other = "填入 E-mail"
 
 [newsletter_warning]
-other = "ご入力いただいたメールアドレスが他人に開示されることは決してございません。"
+other = "我们绝不会与任何人共享您的电子邮件。"
 
 [submit]
-other = "登録"
+other = "提交"
 
 [hugoAttributionText]
-other = "搭載"
+other = "Powered by"
 
 [prev]
-other = "前"
+other = "上一篇"
 
 [next]
-other = "次"
+other = "下一篇"
 
 [improve_this_page]
-other = "編集リクエストを送る"
+other = "改善此页面"
 
 [out_of]
-other = "のうち"
+other = "/"
 
 [publications]
-other = "出版物"
+other = "刊物"
 
 [taken_courses]
-other = "受講したコース"
+other = "选修课程"
 
 [course_name]
-other = "コース名"
+other = "课程名"
 
 [total_credit]
-other = "合計クレジット"
+other = "满分"
 
 [obtained_credit]
-other = "取得したクレジット"
+other = "获得分数"
 
 [extracurricular_activities]
-other = "課外活動"
+other = "课外活动"
 
 [show_more]
-other = "続きを見る"
+other = "查看更多"
 
 [show_less]
-other = "表示を減らす"
+other = "显示较少"
 
 # [responsibilities]
 # other = "Responsibilities:"
@@ -99,13 +102,13 @@ other = "表示を減らす"
 # other = "The page you are looking for is not there yet."
 
 [more]
-other = "もっと"
+other = "更多的"
 
 [view_certificate]
-other = "ビューの証明書"
+other = "查看证书"
 
 [notes]
-other = "ノート"
+other = "笔记"
 
 [disclaimer_text]
-other = "責任通知"
+other = "责任通知"

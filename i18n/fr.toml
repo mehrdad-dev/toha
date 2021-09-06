@@ -8,17 +8,11 @@ other = "Articles"
 [toc_heading]
 other = "Table des matières"
 
-[tags]
-other = "Mots clés"
-
-[categories]
-other = "Catégories"
-
 [at]
 other = "chez"
 
 [resume]
-other = "Mon Curriculum Vitæ"
+other = "Mon Curriculum vitæ"
 
 [navigation]
 other = "Navigation"
@@ -39,7 +33,7 @@ other = "Restez à jour par e-mail"
 other = "Entrez une adresse e-mail"
 
 [newsletter_warning]
-other = "En renseignant votre adresse e-mail, vous acceptez de recevoir la newsletter de ce site."
+other = "Nous ne partagerons jamais votre courriel avec quelqu'un d'autre."
 
 [submit]
 other = "Envoyer"
@@ -101,8 +95,8 @@ other = "Lire"
 # [project_star]
 # other = "Star"
 
-[project_details]
-other = "Détails"
+# [project_details]
+# other = "Details"
 
 # [err_404]
 # other = "The page you are looking for is not there yet."

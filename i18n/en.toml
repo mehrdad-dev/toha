@@ -8,17 +8,11 @@ other = "Posts"
 [toc_heading]
 other = "Table of Contents"
 
-[tags]
-other = "Tags"
-
-[categories]
-other = "Categories"
-
 [at]
 other = "at"
 
 [resume]
-other = "My resume"
+other = "Download My CV"
 
 [navigation]
 other = "Navigation"
@@ -39,7 +33,7 @@ other = "Stay up to date with email notification"
 other = "Enter email"
 
 [newsletter_warning]
-other = "By entering your email address, you agree to receive the newsletter of this website."
+other = "I'll never share your email with anyone else."
 
 [submit]
 other = "Submit"

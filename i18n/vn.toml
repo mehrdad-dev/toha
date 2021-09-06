@@ -8,12 +8,6 @@ other = "Bài viết"
 [toc_heading]
 other = "Mục lục"
 
-[tags]
-other = "Thẻ"
-
-[categories]
-other = "Thể loại"
-
 [at]
 other = "tại"
 
@@ -39,7 +33,7 @@ other = "Nhận email cập nhật thông tin"
 other = "Nhập email"
 
 [newsletter_warning]
-other = "Bằng cách nhập địa chỉ email của bạn, bạn đồng ý nhận bản tin của trang web này."
+other = "Chúng tôi sẽ không bao giờ chia sẻ email của bạn."
 
 [submit]
 other = "Gửi"

@@ -30,13 +30,13 @@
   position: absolute;
   left: 1rem;
   top: 0;
-  background-color: #248aaa;
+  background-color: #233567;
   height: 100%;
   width: 2px;
 }
 
 .education-section .education-info-table tr:first-child .hline {
-  height: 65%;
+  height: 60%;
   top: auto;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .education-section .icon-holder {
-  background-color: #248aaa;
+  background-color: #0B409C;
   border-radius: 50%;
   height: 2rem;
   width: 2rem;
@@ -65,14 +65,14 @@
   height: 2px;
   /* width: 100%; */
   margin-right: -1px;
-  background-color: #248aaa;
+  background-color: #233567;
 }
 
 .education-section .degree-info {
   padding: 1rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  border-left: 2px solid #248aaa;
+  border-left: 2px solid #233567;
   border-top: 1px solid #c0ccda;
   border-bottom: 1px solid #c0ccda;
   border-right: 1px solid #c0ccda;

@@ -18,10 +18,9 @@
     {{ end }}
 {{ end }}
 
-{{/* apply image processing. don't use "Fit" in svg or gif because its not supported */}}
+{{/* apply image processing. don't use "Fit" in svg because its not supported */}}
 {{ $authorImage:= resources.Get $authorImage}}
-
-{{ if and $authorImage (and (ne $authorImage.MediaType.SubType "svg") ( ne $authorImage.MediaType.SubType "gif")) }}
+{{ if and $authorImage (ne $authorImage.MediaType.SubType "svg") }}
   {{ $authorImage = $authorImage.Fit "120x120" }}
 {{ end }}
 
