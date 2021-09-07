@@ -286,6 +286,9 @@
     margin-left: -1rem;
     margin-right: 0rem;
   }
+  .navbar-brand {
+    display: none;
+  }
 }
 
 /* iPhoneX, iPhone 6,7,8 */

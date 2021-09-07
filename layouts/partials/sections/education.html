@@ -27,7 +27,7 @@
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     {{ if .institution.url }}
-                                        <h5><a href="{{ .institution.url }}" title="{{ .institution.name }}" target="_blank" rel="noopener">{{ .institution.name }}</a></h5>
+                                        <h6><a href="{{ .institution.url }}" title="{{ .institution.name }}" target="_blank" rel="noopener">{{ .institution.name }}</a></h6>
                                     {{ else }}
                                         <h5>{{ .institution.name }}</h5>
                                     {{ end }}
@@ -60,8 +60,8 @@
                                 <table>
                                     <thead>
                                         <th>{{ i18n "course_name"}}</th>
-                                        {{ if not $hideScale  }}<th>{{ i18n "total_credit"}}</th>{{ end }}
-                                        <th>{{ i18n "obtained_credit"}}</th>
+                                        {{ if not $hideScale  }}<th style="font-size: 13px;">{{ i18n "total_credit"}}</th>{{ end }}
+                                        <th style="font-size: 13px;">{{ i18n "obtained_credit"}}</th>
                                     </thead>
                                     <tbody>
                                         {{ range $index,$course := .takenCourses.courses }}
